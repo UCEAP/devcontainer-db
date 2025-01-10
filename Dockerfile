@@ -2,7 +2,7 @@ FROM mariadb:10.6
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-# Install curl and jq
+# Install curl and php
 RUN apt-get update \
     && apt-get install --no-install-recommends -y curl php php-xml
 
